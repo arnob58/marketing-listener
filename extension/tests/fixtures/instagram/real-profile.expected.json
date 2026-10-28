@@ -1,0 +1,10 @@
+{
+  "rootCount": 0,
+  "profile": {
+    "handle": "user_a44cb5",
+    "followers": 9119,
+    "verified": false,
+    "displayName": null
+  },
+  "note": "Profile grid tiles carry an author and id in the href but no counts, so they are not emitted as posts."
+}

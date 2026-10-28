@@ -1,0 +1,33 @@
+{
+  "name": "marketing-listener-extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first social listening and trend discovery for X, Instagram and Facebook.",
+  "scripts": {
+    "postinstall": "wxt prepare",
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prebuild": "node scripts/copy-ort.mjs",
+    "predev": "node scripts/copy-ort.mjs",
+    "prezip": "node scripts/copy-ort.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.3.3",
+    "dexie": "4.0.10",
+    "preact": "10.24.3"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.287",
+    "fake-indexeddb": "6.0.0",
+    "happy-dom": "15.11.7",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vitest": "2.1.8",
+    "wxt": "0.19.29"
+  }
+}

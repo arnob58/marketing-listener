@@ -1,0 +1,45 @@
+{
+  "now": 0,
+  "url": "https://www.instagram.com/reels/d6KouCdGa40/",
+  "rootCount": 2,
+  "note": "The page does not record which reel was in view. reels[0] is read under the fixture URL; reels[1] under reelTwoUrl (a made-up code), which is how the viewer names the reel after a scroll.",
+  "reelTwoUrl": "https://www.instagram.com/reels/Zq3xK8vLm4n/",
+  "posts": [
+    {
+      "postId": "d6KouCdGa40",
+      "authorHandle": "user_a78499",
+      "text": "Summit on vista in Walnut 🧊😳",
+      "postedAt": null,
+      "url": "https://www.instagram.com/reel/d6KouCdGa40/",
+      "likes": 386000,
+      "comments": 2773,
+      "shares": 4351,
+      "views": null,
+      "kind": "original",
+      "hasVideo": true,
+      "audio": {
+        "id": "1934296424865360",
+        "title": "Orchard Walnut · Prairie Thistle",
+        "isOriginal": false
+      }
+    },
+    {
+      "postId": "Zq3xK8vLm4n",
+      "authorHandle": "user_23705d",
+      "text": "vista fjord 🏝️",
+      "postedAt": null,
+      "url": "https://www.instagram.com/reel/Zq3xK8vLm4n/",
+      "likes": 41500,
+      "comments": 341,
+      "shares": 1618,
+      "views": null,
+      "kind": "original",
+      "hasVideo": true,
+      "audio": {
+        "id": "13531031864758705",
+        "title": "",
+        "isOriginal": false
+      }
+    }
+  ]
+}
